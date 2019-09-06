@@ -25,11 +25,6 @@ namespace MET.COMs.App
             int cnt = Port.BytesToRead;
            
             Port.DataReceived += OnReceiveData;
-            Console.WriteLine("RX OL(03:38:47.146) : 85 80 02 00 FA 02 01");
-            Console.WriteLine("RX OL(03:38:47.198) : 85 80 02 03 E8 01 F2");
-            Console.WriteLine("RX OL(03:38:47.202) : 81 80 05 00 99 00 00 16 01 B5");
-
-            Console.WriteLine("---:  129 128 5 0 153 0 0 22 1 181");
             Console.ReadLine();
         }
         
